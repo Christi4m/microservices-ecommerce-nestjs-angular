@@ -1,7 +1,13 @@
 # compiled output
+/documentation
 /dist
 /node_modules
-
+/uploads/*
+/config_build/*
+.env*
+!.env.sample
+!.env.production
+ormconfig.json
 # Logs
 logs
 *.log
